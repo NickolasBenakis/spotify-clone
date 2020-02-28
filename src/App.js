@@ -1,15 +1,14 @@
-import React from 'react';
-import './App.css';
-import {Route, Router, Switch} from 'react-router-dom'
+import React from "react";
+import "./App.css";
+import { Route, Router, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <header className="App-header"></header>
       <Router>
         <Switch>
-          <Route path={} component={} />
+          <Route path={"/home"} component={} />
         </Switch>
       </Router>
     </div>
